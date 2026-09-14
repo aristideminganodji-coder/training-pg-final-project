@@ -16,3 +16,21 @@ body {
 .nav-link:hover {
     @apply text-yellow-500;
 }
+
+/* Header section */
+section {
+    @apply py-20 md:py-28;
+}
+
+/* Home section */
+button {
+    @apply bg-yellow-500 py-2 px-4 rounded-md font-bold cursor-pointer;
+}
+
+.btn-outline {
+    @apply bg-transparent border border-yellow-500;
+}
+
+.btn-outline:hover {
+    @apply bg-yellow-500 text-white duration-300;
+}
