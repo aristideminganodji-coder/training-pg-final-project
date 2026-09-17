@@ -34,3 +34,8 @@ button {
 .btn-outline:hover {
     @apply bg-yellow-500 text-white duration-300;
 }
+
+/* Popular Section */
+.leaf-container:hover .leaf{
+    @apply -translate-y-45;
+}
