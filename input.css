@@ -39,3 +39,12 @@ button {
 .leaf-container:hover .leaf{
     @apply -translate-y-45;
 }
+
+/* Review Section */
+.swiper-pagination {
+    @apply static mt-5;
+}
+
+.swiper-pagination-bullet {
+    @apply bg-green-500 w-3 h-3;
+}
