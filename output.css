@@ -256,9 +256,6 @@
   .bottom-1 {
     bottom: var(--spacing);
   }
-  .bottom-1\/2 {
-    bottom: calc(1 / 2 * 100%);
-  }
   .bottom-4 {
     bottom: calc(var(--spacing) * 4);
   }
@@ -838,6 +835,12 @@
     .md\:px-2 {
       padding-inline: calc(var(--spacing) * 2);
     }
+    .md\:px-4 {
+      padding-inline: calc(var(--spacing) * 4);
+    }
+    .md\:py-2 {
+      padding-block: calc(var(--spacing) * 2);
+    }
     .md\:py-4 {
       padding-block: calc(var(--spacing) * 4);
     }
@@ -990,6 +993,12 @@ body {
   letter-spacing: var(--tracking-wider);
   color: var(--color-white);
 }
+section {
+  padding-block: calc(var(--spacing) * 20);
+  @media (width >= 540px) {
+    padding-block: calc(var(--spacing) * 28);
+  }
+}
 .nav-link {
   font-size: var(--text-lg);
   line-height: var(--tw-leading, var(--text-lg--line-height));
@@ -999,11 +1008,8 @@ body {
 .nav-link:hover {
   color: var(--color-yellow-500);
 }
-section {
-  padding-block: calc(var(--spacing) * 20);
-  @media (width >= 540px) {
-    padding-block: calc(var(--spacing) * 28);
-  }
+.active {
+  color: var(--color-yellow-500);
 }
 .home-btn {
   cursor: pointer;

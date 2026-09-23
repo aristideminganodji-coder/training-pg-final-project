@@ -13,7 +13,11 @@ body {
     @apply bg-green-950 text-white font-Jost tracking-wider;
 }
 
-/* header */
+/* Header section */
+section {
+    @apply py-20 md:py-28;
+}
+
 .nav-link {
     @apply text-lg font-bold;
 }
@@ -22,9 +26,9 @@ body {
     @apply text-yellow-500;
 }
 
-/* Header section */
-section {
-    @apply py-20 md:py-28;
+/* Active link */
+.active {
+    @apply text-yellow-500;
 }
 
 /* Home section */
