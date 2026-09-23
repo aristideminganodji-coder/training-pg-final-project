@@ -23,7 +23,7 @@ section {
 }
 
 /* Home section */
-button {
+.home-btn {
     @apply bg-yellow-500 py-2 px-4 rounded-md font-bold cursor-pointer;
 }
 
@@ -42,9 +42,18 @@ button {
 
 /* Review Section */
 .swiper-pagination {
-    @apply static mt-5;
+    @apply static mt-5 mb-20;
 }
 
 .swiper-pagination-bullet {
     @apply bg-green-500 w-3 h-3;
+}
+
+/* Footer Section */
+.email-btn {
+    @apply bg-green-950 py-3 px-4 rounded-md flex flex-row items-center justify-center gap-2 duration-300 cursor-pointer;
+}
+
+.email-btn:hover {
+    @apply opacity-80;
 }

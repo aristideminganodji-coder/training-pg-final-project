@@ -79,11 +79,11 @@
                     </p>
 
                     <div class="lg:mt-15">
-                        <button>
+                        <button class="home-btn">
                             <span>Shop Now</span>
                             <i class="ri-leaf-line"></i>
                         </button>
-                        <button class="ml-1 btn-outline text-slate-300">
+                        <button class="ml-1 btn-outline text-slate-300 home-btn">
                             <span>Know More</span>
                             <i class="ri-leaf-line"></i>
                         </button>
@@ -451,16 +451,93 @@
     </main>
 
     <!--~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~-->
-    <footer>
+    <footer class="bg-yellow-100 text-green-950 relative pt-40 pb-10">
         <!-- newsletter -->
-        
+        <div class="container absolute top-0 left-0 right-0 -translate-y-1/2">
+            <div class="bg-green-900 text-white pt-5 px-10 pb-10 rounded-md">
+                <h3 class="text-xl md:text-2xl xl:text-3xl mb-5">
+                    <span class="text-yellow-500">Subscribe</span> to our newsletter
+                </h3>
+
+                <div class="flex flex-col gap-3 md:flex-row">
+                    <input type="email" placeholder="Your Email Address" class="w-full rounded-md px-6 py-3 bg-white text-green-900 outline-none">
+
+                    <button class="bg-green-950 email-btn">
+                        <span>Subscribe</span>
+                        <i class="ri-send-plane-2-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
         <!-- social icon -->
+        <div class="container">
+            <div class="border-b border-green-500 relative">
+                <div class="absolute -translate-y-1/2 top-0 left-0 right-0 max-w-36 mx-auto">
+                    <div class="bg-yellow-100 text-base text-green-950 space-x-2 text-center">
+                        <i class="ri-facebook-fill hover:text-yellow-500 hover:cursor pointer duration-300"></i>
+                        <i class="ri-twitter-x-line hover:text-yellow-500 hover:cursor pointer duration-300"></i>
+                        <i class="ri-instagram-line hover:text-yellow-500 hover:cursor pointer duration-300"></i>
+                        <i class="ri-linkedin-fill hover:text-yellow-500 hover:cursor pointer duration-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- content -->
+        <div class="container mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7 text-center md:text-start">
+            <!-- item 1 -->
+            <div>
+                <div class="text-green-700 text-center">
+                    <i class="ri-leaf-fill text-7xl"></i>
+                    <p class="font-Lobster text-2xl">IndorePlants.</p>
+                </div>
+            </div>
+
+            <!-- item 2 -->
+            <div>
+                <h3 class="text-green-950 font-bold text-xl mb-5">Quick Link</h3>
+
+                <div class="flex flex-col gap-2">
+                    <a href="#" class="text-green-950">Plants</a>
+                    <a href="#" class="text-green-950">Flowers</a>
+                    <a href="#" class="text-green-950">Gerdening</a>
+                    <a href="#" class="text-green-950">Seeds</a>
+                    <a href="#" class="text-green-950">Shipping</a>
+                </div>
+            </div>
+
+            <!-- item 3 -->
+            <div>
+                <h3 class="text-green-950 font-bold text-xl mb-5">Popular Services</h3>
+
+                <div class="flex flex-col gap-2">
+                    <a href="#" class="text-green-950">Tree Planting</a>
+                    <a href="#" class="text-green-950">Grass Cutting</a>
+                    <a href="#" class="text-green-950">Weeds Control</a>
+                    <a href="#" class="text-green-950">Project</a>
+                </div>
+            </div>
+
+            <!-- item 4 -->
+            <div>
+                <h3 class="text-green-950 font-bold text-xl mb-5">Contact Us</h3>
+
+                <div class="flex flex-col gap-2">
+                    <a href="tel:+8833378901" class="text-green-950">+88 333 78 901</a>
+                    <a href="email:lightcodecamp@gmail.com" class="text-green-950">lightcodecamp@gmail.com</a>
+                    <p class="text-green-950 mt-5">1234 Tailwind Ave, CSS City, Webland 56789, USA</p>
+                </div>
+            </div>
+        </div>
 
         <!-- copyright -->
+        <p class="text-center text-green-950 opacity-50 mt-10 container">Copyright &copy; 2024 LightCode. All rights reserved.</p>
 
         <!-- floral image -->
+        <div class="absolute left-0 bottom-0 opacity-20 pointer-events-none">
+            <img src="assets/img/floral-1.png" alt="floral-1_image" class="w-full lg:w-1/2">
+        </div>
     </footer>
 
     <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
