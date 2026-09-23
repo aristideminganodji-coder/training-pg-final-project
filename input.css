@@ -4,6 +4,11 @@
 @config "./tailwind.config.js";
 @import "tailwindcss";
 
+/* Scroll Up */
+html {
+    @apply overflow-x-hidden scroll-smooth;
+}
+
 body {
     @apply bg-green-950 text-white font-Jost tracking-wider;
 }
